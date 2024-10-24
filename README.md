@@ -1,4 +1,5 @@
 #MiprimerRepositorio
+<<<<<<< HEAD
 - Inicializar un nuevo repositorio Git:
 ```bash
 git init
@@ -12,6 +13,9 @@ echo "# Mi Primer Repositorio" > README.md
 git add README.md
 ```
 Paso 3: Realizar un Commit**:
+=======
+o 3: Realizar un Commit**:
+>>>>>>> desarrollo
 - Crear un commit inicial con un mensaje descriptivo:
 ```bash
 git commit -m "Commit inicial: Añadir README.md"
@@ -26,3 +30,10 @@ git branch desarrollo
 git checkout desarrollo
 ```
 - Hacer cambios en el archivo `README.md` y realizar un commit:
+<<<<<<< HEAD
+=======
+```bash
+echo "Este es un cambio en la rama desarrollo." >> README.md
+git add README.md
+git commit -m "Modificar README.md en la 
+>>>>>>> desarrollo
